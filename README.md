@@ -97,6 +97,8 @@ _( Durant la présentation orale, l’évaluateur interprétera le rôle de Sara
 
 [Utilisation de la balise meta viewport pour controler la mise en page sur mobile](https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag)
 
+[BookiGuide.pdf](https://github.com/GuillaumePevrier/OC_Projet2/files/10308851/BookiGuide.pdf)
+
 ## AIDE-MÉMOIRE GITHUB GIT
 
 _Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur. Cet aide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées._
