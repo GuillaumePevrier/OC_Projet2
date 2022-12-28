@@ -1,21 +1,59 @@
+<!-- Première étape préparation de la balise head regroupant toutes les informations importantes
+pour relier les fichiers connectés au fichier index.html et les informations pour les moteurs
+de recherche -->
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Projet 2 - Créez la page d'accueil d'une agence de voyage avec HTML & CSS</title>
         <meta charset="utf-8">
         <neta name="keywords" content="Html Css agence voyage">
         <meta name="description" content="Page d'accueil d'une agence de voyage">
         <meta name="author" content="Pévrier Guillaume">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         </neta>
+        <script src="https://kit.fontawesome.com/abc919a6aa.js" crossorigin="anonymous"></script>
     </head>
 </html>
+<!-- 
+Deuxième étape - Après étude de la maquette FIGMA et découpage de celle-ci, j'ai renseigné 
+l'architecture des balises sémantiques constituant la page  d'accueil du site BOOKI. 
+J'ai souligné une importance à :
+- regrouper les composants identiques pour éviter les doublons de règles CSS.
+- Observer l'alignement des composants dans les règles "FLEXBOX".
+-->
 
 <body>
-    <h1>Projet 2 - Créez la page d'accueil d'une agence de voyage avec HTML & CSS</h1>
-    <br />
-    <p>L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.<br />
-      Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. <br />
-      Sarah vous envoie un e-mail pour vous présenter l’avancée du projet.
-      </p>
+<header>
+    <!-- Section "header" composé de 2 blocs horizontaux ( 1 bloc Logo et un bloc Navigation)-->
+    <img src=""="" /> <!-- Logo BOOKI -->
+    <nav>
+        <!-- Section "navigation" composé de 2 blocs horizontaux ( 2 Blocs texte)-->
+    </nav>
+</header>
+<main>
+    <section>
+        <!-- Section "Recherche" composé de 5 blocs verticaux (1 bloc Titre, 1 bloc texte, 1 bloc recherche, 1 bloc filtre et
+    un bloc text-->
+    </section>
+    <section>
+        <!-- Section "Hébergements" regroupant deux articles horizontalement "Hébergements à Marseille" et "les plus populaires"  -->
+        <article>
+            <!-- Article "Hébergements à Marseille" composé de 3 blocs verticaux ( 1 Bloc Titre, 1 bloc Cards horizontales et bloc
+        text) -->
+        </article>
+        <article>
+            <!-- Article "les plus populaires" composé de 2 blocs verticaux (1 bloc Titre + icon et 1 bloc Cards vertical)-->
+        </article>
+    </section>
+    <section>
+        <!-- Section "Activités" composé de 2 blocs verticaux ( 1 bloc Titre et 1 bloc Cards horizontal)-->
+    </section>
+    <footer>
+        <!-- Footer composé de 3 blocs contenant du texte de navigation -->
+    </footer>
+</main>
 </body>

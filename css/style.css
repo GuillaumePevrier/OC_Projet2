@@ -1,6 +1,6 @@
 body {
     background-color:  #fff;
-    font-family: verdana;
+    font-family: 'Raleway';
 }
 /* commentaires */
 h1 {
@@ -15,3 +15,29 @@ p {
     margin: auto;
 }
 /* commentaires */
+header {
+    background-color:  #fff;
+}
+/* commentaires */
+img {
+    background-color:  #ddd;
+}
+nav {
+   /* commentaires */ 
+}
+/* commentaires */
+main {
+    background-color:  #fff;
+}
+/* commentaires */
+section {
+    background-color:  #ddd;
+}
+article {
+    background-color:  #F2F2F2;
+
+}
+/* commentaires */
+footer {
+    background-color:  #F2F2F2;
+}
