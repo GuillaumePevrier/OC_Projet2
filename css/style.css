@@ -1,43 +1,71 @@
 body {
     background-color:  #fff;
     font-family: 'Raleway';
+    margin: 0px
 }
-/* commentaires */
-h1 {
-    color: #000;
-    font-size: medium;
-}
-/* commentaires */
-p {
-    color: #000;
-    height: 500px;
-    width: 500px;
-    margin: auto;
-}
-/* commentaires */
+/* Le body à une marge par défaut donc je l'ai initialisé à 0px */
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
     background-color:  #fff;
+    height: 107px;
+    width: 100%;
 }
-/* commentaires */
-img {
-    background-color:  #ddd;
+/* Utilisation de FLEX pour aligner le LOGO et la NAVIGATION dans le Header */
+#logo{
+   height: 19px;
+   width: 61px;
+   margin-left: 55px;
+   margin-right: 55px;
+   margin-top: 44px;
+   
 }
 nav {
-   /* commentaires */ 
+   /* Utilisation de FLEX pour aligner les liens du menu de navigation */ 
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   height: 107px;
+   width: 381px;
+   background-color:  #fff;
+   font-size: 16px;
 }
-/* commentaires */
-main {
-    background-color:  #fff;
+#navigation{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: flex-end;
+   align-content: flex-end;
+   width: 381px;
+   margin: auto;
+   list-style: none;
 }
-/* commentaires */
-section {
-    background-color:  #ddd;
-}
-article {
-    background-color:  #F2F2F2;
 
+a, li {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   height: 100%;
+   outline: none;
+   text-decoration: none;
+   height: 107px;
 }
-/* commentaires */
-footer {
-    background-color:  #F2F2F2;
+a:link, a:visited {
+   color: black;
+}
+a:active, a:focus {
+   color: #0065FC;
+   border-top: 2px solid ;
+}
+/* Pour simplifier le code j'ai essayé de regroupé les règles CSS pour les balises identiques (a et li) et les action dynamiques de (a). 
+La ligne bleu active est un border-top de la balise (a) pour la vue Desktop et */
+}
+img {
+   margin: auto;
 }
