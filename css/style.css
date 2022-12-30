@@ -69,3 +69,19 @@ La ligne bleu active est un border-top de la balise (a) pour la vue Desktop et *
 img {
    margin: auto;
 }
+#div_recherche_titre {
+   display: flex;
+   flex-direction: column;
+}
+#div_recherche {
+   display: flex;
+   flex-direction: row;
+}
+#div_filtres {
+   display: flex;
+   flex-direction: row;
+}
+#div_infos {
+   display: flex;
+   flex-direction: row;
+}

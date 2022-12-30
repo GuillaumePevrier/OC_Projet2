@@ -17,7 +17,7 @@ de recherche -->
         </neta>
         <script src="https://kit.fontawesome.com/abc919a6aa.js" crossorigin="anonymous"></script>
     </head>
-</html>
+
 <!-- 
 Deuxième étape - Après étude de la maquette FIGMA et découpage de celle-ci, j'ai renseigné 
 l'architecture des balises sémantiques constituant la page  d'accueil du site BOOKI. 
@@ -28,10 +28,14 @@ J'ai souligné une importance à :
 
 <body>
 <header>
+    
     <!-- Section "header" composé de 2 blocs horizontaux ( 1 bloc Logo et un bloc Navigation)-->
+        <!-- ##################################################-->
     <img id="logo" src="images/logo/Booki.png" title="Logo" alt="Logo_page" /> 
     <!-- Logo BOOKI positionnement avec une marge dans le header et définition des info de l'image (Title et alt)
 pour optimisation SEO -->
+
+        <!-- ##################################################-->
     <nav>
         <!-- Section "navigation" composé de 2 blocs horizontaux ( 2 Blocs texte) et info 'Title' pour mieux définir la navigation. commentaires dans le fichier CSS-->
         <ul id="navigation">
@@ -39,11 +43,42 @@ pour optimisation SEO -->
             <li><a href="#" title="Aller à la section Activités">Activités</a></li>
         </ul>
     </nav>
+        <!-- ##################################################-->
 </header>
 <main>
     <section>
+        <!-- ##################################################-->
         <!-- Section "Recherche" composé de 5 blocs verticaux (1 bloc Titre, 1 bloc texte, 1 bloc recherche, 1 bloc filtre et
-    un bloc text-->
+        un bloc text-->
+    <div id="div_recherche_titre">        
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p>En plein centre-ville ou en pleine nature</p>
+    </div>
+    <!-- ##################################################-->
+    <div id="div_recherche">
+        <!-- Bloc de recherche-->
+        <form>
+            <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>
+            <input type="search" id="recherche" name="recherche" placeholder="Marseille, France" />
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i>Recherche</button>
+        </form>
+    </div>
+    <!-- ##################################################-->
+    <div id="div_filtres">
+        <!-- Bloc Filtres-->
+        <h2>Filtres</h2>
+        <button><i class="fa-solid fa-info"></i>Economique</button>
+        <button><i class="fa-solid fa-person"></i>Familial</button>
+        <button><i class="fa-solid fa-heart"></i>Romantique</button>
+        <button><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+    </div>
+    <!-- ##################################################-->
+    <div id="div_infos">
+        <!-- Bloc Infos-->
+       <i class="fa-solid fa-info"></i>
+       <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
+    <!-- ##################################################-->
     </section>
     <section>
         <!-- Section "Hébergements" regroupant deux articles horizontalement "Hébergements à Marseille" et "les plus populaires"  -->
@@ -63,3 +98,4 @@ pour optimisation SEO -->
     </footer>
 </main>
 </body>
+</html>
