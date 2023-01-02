@@ -106,7 +106,7 @@ img {
    margin-left: 55px;
    margin-right: 55px;
 }
-h1{
+h1,h2 {
    font-size: 22px;
    margin: 0px;
    padding: 0px;
@@ -226,4 +226,37 @@ form {
    margin-left: 55px;
    margin-right: 55px;
    
+}
+
+#section {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: stretch;
+   align-content: center;
+   margin: 50px;
+   width: 100%;
+}
+
+#hebergments {
+   background: #F2F2F2;
+   border-radius: 20px;
+   height: 625px;
+   width: 880px;
+
+}
+
+#populaires {
+   background: #F2F2F2;
+   border-radius: 20px;
+   height: 625px;
+   width: 420px;
+   margin-left: 40px;
+}
+
+#titre_hebergement {
+   font-size: 22px;
+   margin-left: 40px;
+   margin-top: 42px;
+   padding: 0px;
 }
