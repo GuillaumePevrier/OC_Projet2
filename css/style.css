@@ -389,3 +389,24 @@ h3 {
    align-items: center;
    align-content: space-between;
 }
+#cards_activite_style {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   justify-content: flex-start;
+   align-content: flex-start;
+   margin: 15px;
+   width: 100%;
+   height: 444.51px;
+   background: #FFFFFF;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+}
+#img_activite_hebergements {
+   width: 97.4%;
+   height: 388.51px;
+   border: 5px solid #FFFFFF;
+   border-radius: 20px 20px 0px 0px;
+   object-fit: cover;
+}
