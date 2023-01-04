@@ -65,21 +65,21 @@ a:active, a:focus, a:hover {
 }
 /* Pour simplifier le code j'ai essayé de regroupé les règles CSS pour les balises identiques (a et li) et les action dynamiques de (a). 
 La ligne bleu active est un border-top de la balise (a) pour la vue Desktop et */
-}
-img {
-   margin: auto;
-}
+
 #div_recherche_titre {
    display: flex;
    flex-direction: column;
    margin-left: 55px;
    margin-right: 55px;
+   width: 100%;
 }
 #div_recherche {
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: flex-start;
    margin-left: 55px;
+   width: 100%;
    
    
 }
@@ -94,15 +94,17 @@ img {
    margin-right: 55px;
    margin-top: 32px;
    margin-bottom: 38px;
+   width: 100%;
  
 }
 #div_infos {
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: flex-start;
    align-items: center;
    align-content: center;
-   
+   width: 100%;
    margin-left: 55px;
    margin-right: 55px;
 }
@@ -225,16 +227,16 @@ form {
    height: 49px;
    margin-left: 55px;
    margin-right: 55px;
-   
+   width: 100%;
 }
 
 #section {
    display: flex;
    flex-direction: row;
-   justify-content: flex-start;
-   align-items: stretch;
-   align-content: center;
-   margin: 50px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   align-content: space-evenly;
    width: 100%;
 }
 
@@ -246,7 +248,9 @@ form {
    background: #F2F2F2;
    border-radius: 20px;
    height: 625px;
-   width: 880px;
+   width: 65%;
+   padding-left: 40px;
+   padding-right: 40px;
 
 }
 
@@ -254,15 +258,14 @@ form {
    background: #F2F2F2;
    border-radius: 20px;
    height: 625px;
-   width: 420px;
-   margin-left: 40px;
+   width: 25%;
 }
 h3 {
    font-size: 18px;
    margin-left: 40px;
 }
 #titre_hebergement {
-   
+   width: 100%;
    font-size: 22px;
    margin-left: 40px;
    margin-top: 42px;
@@ -274,7 +277,8 @@ h3 {
    align-items: baseline;
    justify-content: flex-start;
    align-content: flex-start;
-   width: 246px;
+   margin: 15px;
+   width: 100%;
    height: 199px;
    background: #FFFFFF;
    border-radius: 20px;
@@ -283,6 +287,7 @@ h3 {
 }
 #cards_hebergements_style:hover {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
 }
 #cards_hebergements_direction {
    display: flex;
@@ -293,7 +298,7 @@ h3 {
    
 }
 #img_cards_hebergements {
-   width: 236px;
+   width: 97.4%;
    height: 124px;
    border: 5px solid #FFFFFF;
    border-radius: 20px 20px 0px 0px;
@@ -343,9 +348,10 @@ h3 {
 #titre_populaire_direction {
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
+   justify-content:  space-between;
    align-items: baseline;
    align-content: flex-end;
+   width: 85%;
    
 }
 #cards_polulaires_direction {
@@ -361,7 +367,7 @@ h3 {
    align-items: baseline;
    justify-content: flex-start;
    align-content: flex-start;
-   width: 343px;
+   width: 85%;
    height: 144px;
    background: #FFFFFF;
    border-radius: 20px;
