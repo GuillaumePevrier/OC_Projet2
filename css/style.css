@@ -18,6 +18,12 @@ header {
     width: 100%;
 }
 /* Utilisation de FLEX pour aligner le LOGO et la NAVIGATION dans le Header */
+main {
+   #section {
+      display: flex;
+      flex-direction: column;
+   }
+}
 #logo{
    height: 19px;
    width: 61px;
@@ -429,6 +435,13 @@ h3 {
    margin-right: 22px;
    width: 67%;
 }
+#section_activite_direction {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   margin-top: 0px;
+}
 #article_artivite_direction {
    display: flex;
    flex-direction: column;
@@ -587,7 +600,13 @@ h3 {
       align-items: center;
       align-content: center;
    }
-   
+   #section_activite_direction {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin-top: 200px;
+   }
 }
 
 @media screen and (max-width: 768px){
