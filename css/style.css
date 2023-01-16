@@ -185,20 +185,25 @@ input[type="search"] {
 #button_filters{
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
    align-items: center;
-   align-content: center;
+   align-content: flex-start;
    border: 2px solid #D9D9D9;
    border-radius: 25px;
    font-family: 'Raleway';
    font-style: normal;
-   font-weight: 700;
-   font-size: 17px;
+   font-weight: 600;
+   font-size: 15px;
    line-height: 20px;
    background-color: white;
    margin-right: 10px;
    margin-left: 10px;
    padding-right: 14px;
+   width: auto;
+   height: auto;
+   text-align: justify;
+   
    
 }
 #button_filters_2{
@@ -228,7 +233,6 @@ input[type="search"] {
 #div_infos {
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
    justify-content: flex-start;
    align-items: center;
    align-content: center;
@@ -643,6 +647,9 @@ i {
    #img_activite_hebergements {
       height: 211px;
    }
+   #i_search {
+     display: none;
+   }
 }
 
 @media screen and (max-width: 768px){
@@ -751,6 +758,9 @@ li:active, li:focus, li:hover, li:link, li:visited {
    #recherche_display {
       display: none;
    }
+   #i_search {
+      display: contents;
+    }
    
    #div_filtres {
       flex-direction: column;
@@ -786,17 +796,6 @@ li:active, li:focus, li:hover, li:link, li:visited {
       line-height: 13px;
    }
    
-   #div_infos {
-      flex-grow: 1;
-      flex-wrap: nowrap;
-      align-content: flex-start;
-      margin-top: 43px;
-      margin-bottom: 17px;
-      margin-right: 20px;
-      margin-left: 20px;
-      width: auto;
-      height: auto;
-   }
      
    #section {
       flex-direction: column-reverse;
